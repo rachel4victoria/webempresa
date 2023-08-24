@@ -1,0 +1,68 @@
+.banner{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-family: var(---fonte);
+ gap: 24px;
+ padding: 96px 0;
+}
+
+.subtitulo{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(---vermelho__botao);
+    margin: 0;
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(---titulo);
+    letter-spacing: -0.96px;
+    margin: 0;
+}
+
+.descricao{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(---fonte__menu);
+    text-align: center;
+    margin: 0;
+   
+
+}
+
+.sessoes{
+    display: flex;
+    justify-content: space-around;
+    font-family: var(---fonte);
+    margin: calc(1em + -3vw);
+    padding-bottom: 96px;
+    padding-top: calc(1em + 1vw);
+  
+    
+}
+
+.titulo__sessao{
+    font-weight: 600 ;
+    font-size: 60px;
+    color: var(---vermelho__botao);
+
+}
+
+.subtitulo__sessao{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(---titulo);
+    margin-top: calc(1em + -2.7vw);
+
+}
+
+.descricao__sessao{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(---fonte__menu);
+    margin-top: calc(1em + -1.3vw);
+
+}
+  

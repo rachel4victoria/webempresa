@@ -1,0 +1,42 @@
+.vagas{
+  font-family: var(---fonte);
+
+}
+
+.vagas__informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+}
+
+.alerta__vagas{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(---vermelho__botao);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: calc(1em + -0.4vw);
+    margin-top: calc(1em + 3vw);
+
+}
+
+.titulo__vagas{
+    font-weight: 600;
+    font-size: 36px;
+    color: var( ---titulo);
+    margin-top: calc(1em + -2vw);
+
+}
+
+.descricao__vagas{
+    font-weight: 400;
+    font-size: 20px;
+    color: var( ---fonte__menu);
+    margin-top: calc(1em + -1.5vw);
+}
+
+.imagem__vagas{
+    margin-top: calc(1em + 2vw);
+    margin-bottom: calc(1em + 2vw) ;
+}
