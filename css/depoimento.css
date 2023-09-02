@@ -1,0 +1,38 @@
+.secaodepoimento{
+    font-family: var(---fonte);
+    text-align: center;
+    border-radius: 16px ;
+    background: rgba(195, 25, 25, 0.03);
+    margin: calc(1em + 6vw);
+    padding: calc(1em + 1vw) ;
+}
+
+
+
+
+.titulo__depoimento{
+    font-weight: 600;
+    font-size: 14px;
+    color: var( ---vermelho__botao);
+   
+}
+    
+
+.conteudo__depoimento{
+    font-weight: 500;
+    font-size: 36px;
+    color: var( ---titulo);
+    padding-right: calc(1em + 1vw);
+    padding-left:  calc(1em + 1vw);
+}
+
+.nome__colaborador{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.funcao__colaborador{
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: calc(1em + -1vw);
+}

@@ -11,7 +11,7 @@
 .menu{
     display: flex;
     gap: 32px;
-    margin-left: calc(1em + -30vw);
+    margin-left: calc(1em + -20vw);
     font-family: var(---fonte);
     font-weight: 500;
     font-size: 16px;
