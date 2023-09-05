@@ -1,0 +1,63 @@
+.rodape{
+   text-align: center;
+   font-family: var(---fonte);
+   background-color: var( ---fundo__rodape);
+   padding: 96px 0px;
+}
+
+.titulo__rodape{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(---titulo);
+    padding-bottom: calc(1em + -2w);
+
+}
+
+.conteudo__rodape{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---fonte__menu);
+    padding-bottom: calc(1em + 0vw)}
+
+.campo__rodape{
+    display: flex;
+   justify-content: center;
+   gap: 16px;
+   padding-bottom: calc(1em + -1vw)
+
+}
+
+
+.email__rodape{
+   border: 1px solid #D0D5DD;
+   border-radius: 8px;
+   background: var(---fundo);
+   padding: 12px 14px 12px 16px;
+   gap: 36px;
+   width: calc(1em + 16vw);
+
+}
+
+.email__rodape ::placeholder{
+    color: var(---fonte__menu) ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.botao__rodape{
+    border: 1px solid var(---vermelho__botao);
+    border-radius: 8px;
+    background-color: var(---vermelho__botao);
+    color: var(---fundo);
+    padding: 12px 20px;
+}
+
+
+.copy__rodape{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(---texto___rodape);
+
+
+}
